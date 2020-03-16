@@ -18,12 +18,12 @@ package org.thingsboard.gateway.extensions.modbus.util;
 import com.ghgande.j2mod.modbus.procimg.InputRegister;
 import com.ghgande.j2mod.modbus.procimg.Register;
 import com.ghgande.j2mod.modbus.procimg.SimpleRegister;
+import com.loit.common.data.kv.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.tomcat.jni.Poll;
 import org.thingsboard.gateway.extensions.modbus.conf.ModbusExtensionConstants;
 import org.thingsboard.gateway.extensions.modbus.conf.mapping.PollingTagMapping;
 import org.thingsboard.gateway.extensions.modbus.conf.mapping.TagMapping;
-import org.thingsboard.server.common.data.kv.*;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;

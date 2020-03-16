@@ -27,7 +27,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.springframework.util.StringUtils;
 import org.thingsboard.gateway.service.data.DeviceData;
 import org.thingsboard.gateway.util.converter.BasicJsonConverter;
-import org.thingsboard.server.common.data.kv.*;
+import com.loit.common.data.kv.*;
 
 import java.nio.charset.StandardCharsets;
 import java.util.*;

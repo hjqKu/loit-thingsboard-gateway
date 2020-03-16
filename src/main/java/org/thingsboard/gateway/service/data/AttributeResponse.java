@@ -15,9 +15,9 @@
  */
 package org.thingsboard.gateway.service.data;
 
+import com.loit.common.data.kv.KvEntry;
 import lombok.Builder;
 import lombok.Data;
-import org.thingsboard.server.common.data.kv.KvEntry;
 
 import java.util.Optional;
 

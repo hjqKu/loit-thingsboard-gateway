@@ -16,7 +16,7 @@
 package org.thingsboard.gateway.extensions.opc.scan;
 
 import org.eclipse.milo.opcua.stack.core.types.builtin.DataValue;
-import org.thingsboard.server.common.data.kv.KvEntry;
+import com.loit.common.data.kv.KvEntry;
 
 import java.util.Optional;
 

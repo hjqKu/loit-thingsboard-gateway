@@ -15,11 +15,11 @@
  */
 package org.thingsboard.gateway.service.gateway;
 
+import com.loit.common.data.kv.KvEntry;
+import com.loit.common.data.kv.TsKvEntry;
 import org.thingsboard.gateway.service.MqttDeliveryFuture;
 import org.thingsboard.gateway.service.conf.TbExtensionConfiguration;
 import org.thingsboard.gateway.service.data.*;
-import org.thingsboard.server.common.data.kv.KvEntry;
-import org.thingsboard.server.common.data.kv.TsKvEntry;
 
 import java.util.List;
 import java.util.Optional;

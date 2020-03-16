@@ -15,6 +15,7 @@
  */
 package org.thingsboard.gateway.extensions.mqtt.client;
 
+import com.loit.common.data.kv.KvEntry;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.internal.security.SSLSocketFactoryFactory;
@@ -30,7 +31,6 @@ import org.thingsboard.gateway.service.AttributesUpdateListener;
 import org.thingsboard.gateway.service.RpcCommandListener;
 import org.thingsboard.gateway.service.data.*;
 import org.thingsboard.gateway.service.gateway.GatewayService;
-import org.thingsboard.server.common.data.kv.KvEntry;
 
 import java.nio.charset.StandardCharsets;
 import java.util.*;

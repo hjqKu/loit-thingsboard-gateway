@@ -40,8 +40,8 @@ import org.thingsboard.gateway.service.data.RpcCommandSubscription;
 import org.thingsboard.gateway.service.gateway.GatewayService;
 import org.thingsboard.gateway.util.CertificateInfo;
 import org.thingsboard.gateway.util.ConfigurationTools;
-import org.thingsboard.server.common.data.kv.KvEntry;
-import org.thingsboard.server.common.data.kv.TsKvEntry;
+import com.loit.common.data.kv.KvEntry;
+import com.loit.common.data.kv.TsKvEntry;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

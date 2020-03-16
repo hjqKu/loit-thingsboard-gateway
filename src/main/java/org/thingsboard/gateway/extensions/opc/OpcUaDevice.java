@@ -23,7 +23,7 @@ import org.thingsboard.gateway.extensions.opc.conf.mapping.DeviceMapping;
 import org.thingsboard.gateway.extensions.common.conf.mapping.KVMapping;
 import org.thingsboard.gateway.extensions.opc.conf.mapping.TimeseriesMapping;
 import org.thingsboard.gateway.extensions.opc.scan.OpcUaNode;
-import org.thingsboard.server.common.data.kv.*;
+import com.loit.common.data.kv.*;
 
 import java.util.*;
 import java.util.stream.Collectors;

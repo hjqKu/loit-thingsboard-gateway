@@ -15,7 +15,7 @@
  */
 package org.thingsboard.gateway.service;
 
-import org.thingsboard.server.common.data.kv.KvEntry;
+import com.loit.common.data.kv.KvEntry;
 
 import java.util.List;
 

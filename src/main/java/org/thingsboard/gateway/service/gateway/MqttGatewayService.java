@@ -19,6 +19,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.common.io.Resources;
+import com.loit.common.data.kv.*;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.handler.ssl.SslContext;
@@ -51,12 +52,7 @@ import org.thingsboard.gateway.service.data.RpcCommandResponse;
 import org.thingsboard.gateway.service.data.RpcCommandSubscription;
 import org.thingsboard.gateway.util.JsonTools;
 import org.thingsboard.mqtt.*;
-import org.thingsboard.server.common.data.kv.BooleanDataEntry;
-import org.thingsboard.server.common.data.kv.DoubleDataEntry;
-import org.thingsboard.server.common.data.kv.KvEntry;
-import org.thingsboard.server.common.data.kv.LongDataEntry;
-import org.thingsboard.server.common.data.kv.StringDataEntry;
-import org.thingsboard.server.common.data.kv.TsKvEntry;
+
 
 import javax.annotation.*;
 import javax.net.ssl.KeyManagerFactory;

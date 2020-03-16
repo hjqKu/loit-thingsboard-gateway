@@ -23,7 +23,7 @@ import org.thingsboard.gateway.extensions.modbus.conf.ModbusExtensionConstants;
 import org.thingsboard.gateway.extensions.modbus.conf.mapping.DeviceMapping;
 import org.thingsboard.gateway.extensions.modbus.conf.mapping.PollingTagMapping;
 import org.thingsboard.gateway.extensions.modbus.util.ModbusUtils;
-import org.thingsboard.server.common.data.kv.*;
+import com.loit.common.data.kv.*;
 
 import java.util.*;
 
